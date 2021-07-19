@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>教务系统登陆</title>
+		<style>
+			body{
+				background-color: #1E9FFF;
+			}
+			#logindiv{
+				background-color: white;
+				width: 400px;
+				height: 440px;
+				margin: 0 auto;/*居中*/
+				margin-top: 150px;/*顶端外边距*/
+				padding-top: 20px;/*顶端内边距*/
+				text-align: center;/*文字居中*/
+			}
+			h1{
+				font-family:"微软雅黑" ;
+				color: #1E9FFF;
+				margin: 0px;
+			}
+			#uname{
+				width: 318.4px;
+				height: 38px;
+				border-radius: 5px;
+				border: 1px solid lightgray;
+				margin-left: -30px;
+				background-color: transparent;
+				padding-left: 30px;
+			}
+			#upsw{
+				width: 318.4px;
+				height: 38px;
+				border-radius:5px;
+				border: 1px solid lightgray;
+				margin-left: -30px;
+				background-color: transparent;
+				padding-left: 30px;
+				margin-top: 20px;
+			}
+			#ubt{
+				width: 350.4px;
+				height: 38px;
+				background-color: #1E9FFF;
+				margin-top: 20px;
+				border-radius: 5px;
+				color: white;
+				border: 1px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="text.html" method="get">
+			<div id="logindiv">
+			<h1>UOlab联合开放实验室</h1>
+			<h1 style="margin-bottom: 20px;" 10px;>管理平台</h1>
+			<img src="images/user.png" />
+			<input type="text" id="uname" placeholder="用户名"/><br>
+			<img src="images/password.png">
+			<input type="password" id="upsw" placeholder="密码"><br>
+			<input id="ubt" type="submit" value="登陆"/>
+			</div>
+		</form>
+		
+	</body>
+</html>
